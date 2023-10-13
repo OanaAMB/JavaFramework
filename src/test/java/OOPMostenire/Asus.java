@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Asus extends Laptop {
 
-    public List<String> optiuniExterior;
+    private List<String> optiuniExterior;
 
     public Asus(String display, String forma, String model, double pret, List<String> optiuniExterior) {
         super(display, forma, model, pret);
@@ -16,5 +16,13 @@ public class Asus extends Laptop {
         for (int index=0; index<optiuniExterior.size(); index++) {
             System.out.println(optiuniExterior.get(index));
         }
+    }
+
+    public List<String> getOptiuniExterior() {
+        return optiuniExterior;
+    }
+
+    public void setOptiuniExterior(List<String> optiuniExterior) {
+        this.optiuniExterior = optiuniExterior;
     }
 }

@@ -19,5 +19,4 @@ public class MostenireTest {
         Lenovo tinkpad = new Lenovo("Oledddd", "dreptunghddddiulara", "G1dd44", 9979.99, "HDMI");
         tinkpad.infoLenovo();
     }
-
 }
